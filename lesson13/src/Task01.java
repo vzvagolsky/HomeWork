@@ -24,7 +24,7 @@ public class Task01 {
 
         System.out.println(Arrays.toString(ArrInt));
 
-        for(int i=0;i<countInt;i=i+2){
+        for(int i=1;i<countInt;i=i+2){
             ArrInt[i]=0 ;
 
         }
