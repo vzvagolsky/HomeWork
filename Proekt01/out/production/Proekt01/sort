@@ -1,0 +1,6 @@
+Сustomer tmp;
+                if(customer[k].getName().compareTo(customer[y].getName())>0){
+                    tmp = customer[k];
+                    customer[k] = customer[y];
+                    customer[y] = tmp;
+                }
